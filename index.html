@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chef's</title><link rel="icon" type="image/png" href="k_logo3.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Fechar</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Sobre nós</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Cardápio</a>
+  <a href="#where" onclick="w3_close()" class="w3-bar-item w3-button">Onde nos encontrar</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right"> <img src="k_logo3.png" width="72" height="72"></div>
+    <div class="w3-center w3-padding-16">Chef's Pensão & Bar</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1200px;margin-top:100px">
+
+      <!-- About Section -->
+      <hr id="about">
+  <div class="w3-center">  
+    <!-- <h3>About Me, The Food Man</h3><br> -->
+    <img src="https://i.imgur.com/YjhnHsz.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="1500" height="800">
+    <div class="w3-padding-32">
+      <h4><b>Sobre nós</b></h4>
+      <h6><i>Comida Caseira</i></h6>
+      <p>Uma pensão no coração de Anchieta, trabalhamos com refeições de segunda a sexta de 11:00 às 15:00 e estamos felizes em recebe-lo!</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <h3>Cardápio</h3><br>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/nVjE48Z.png" alt="Sandwich" style="width:100%">
+      <h3>Bife com batata frita</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/kW7F2TV.png" alt="Steak" style="width:100%">
+      <h3>Bife a Parmegiana </h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/OqBxHh5.png" alt="Cherries" style="width:100%">
+      <h3>Frango assado</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p> 
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/3vWqmyc.png" alt="Pasta and Wine" style="width:100%">
+      <h3>Frango Empanado</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/2Pko1wI.png" alt="Popsicle" style="width:100%">
+      <h3>Omelete com queijo</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/MfCvK1h.png" alt="Salmon" style="width:100%">
+      <h3>Peixe frito</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/pMTeOUA.jpeg" alt="Sandwich" style="width:100%">
+      <h3>Escondidinho de frango</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/ZEMd1Yt.png" alt="Croissant" style="width:100%">
+      <h3>Strogonoff de frango</h3>
+      <p>R$16,99</p>
+      <p>Acompanhado com arroz, feijão, salada e batata frita/purê. </p>
+    </div>
+  </div>
+  <hr id="where">
+  <center>
+    <h3>Onde nos encontrar!</h3><br>
+    <p><i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Estamos localizados na Estr. Mal. Alencastro, 5453 - Anchieta, venha nos visitar!</p>
+    <p><i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Para sugestões ou dúvidas, mande para o nosso email: chefspensaobar@gmil.com</p>
+    <p><i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Entre em contato pelo número: (21) 965541-5543</p>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!4v1717389513747!6m8!1m7!1s7KZsjfxxWIEa3wKx5xUOHw!2m2!1d-22.822089220638!2d-43.40690368130298!3f42.72250078919973!4f-10.372088890692837!5f1.6710413904732366" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
+ <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <p>Feito por: Giancarlo de Oliveira Augusto e Matheus Britto</p>
+    <a href="https://www.facebook.com"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.twitter.com"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
